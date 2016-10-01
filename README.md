@@ -9,8 +9,18 @@ Closest to you bar
 
 How to use:
 
-All functions take one argument (data) - a list of bars in JSON format and returns bar (name).
+Install Python Geocoding Toolbox, using pip with:
+
+pip install geopy
+
+Or, download a wheel or source archive from PyPI.
+
+data - a list of bars in JSON format and returns bar (name).
+
+user_coordinates - list with longitude and latitude of user
 
 get_biggest_bar(data) - bar with the biggest number of seats.
+
 get_smallest_bar(data) - bar with the smallest number of seats.
-get_closest_bar(data) - bar which is closest to your location. Your location needs to be entered manually.
+
+get_closest_bar(data, user_coordinates) - bar which is closest to your location. Your location needs to be entered manually.
