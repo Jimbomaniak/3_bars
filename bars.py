@@ -42,6 +42,7 @@ def get_coordinates():
         return get_coordinates()
 
 
+    
 if __name__ == '__main__':
     filepath = input('Path to json file(e.g. /c:/users/bars.json): ')
     data = load_data(filepath)
