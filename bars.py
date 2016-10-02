@@ -42,13 +42,6 @@ def get_coordinates():
         return get_coordinates()
 
 
-def get_distance_to_bar(bar_coordinates, user_coordinates):
-    user_long, user_lat = user_coordinates
-    bar_long, bar_lat = bar_coordinates
-    distance_to_bar = sum([abs(bar_long - user_long), abs(bar_lat - user_lat)])
-    return distance_to_bar
-
-
 if __name__ == '__main__':
     filepath = input('Path to json file(e.g. /c:/users/bars.json): ')
     data = load_data(filepath)
