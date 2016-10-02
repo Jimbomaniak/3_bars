@@ -1,19 +1,18 @@
 # 3_bars
-Prerequisites: Scripts need a list of bars in JSON format. Just copy the file 'Bars.json' to the directory with the script. List of bars can be downloaded directly from http://data.mos.ru/opendata/export/1796/json/2/1
+# Prerequisites:
+Scripts need a list of bars in JSON format. Just copy the file 'Bars.json' to the directory with the script. List of bars can be downloaded directly from http://data.mos.ru/opendata/export/1796/json/2/1
 
-This script can help you to determine 3 things:
+Run in console pip install -r requirements.txt to install 3rd party modules.
+
+# This script can help you to determine 3 things:
 
 Biggest bar
+
 Smallest bar
+
 Closest to you bar
 
-How to use:
-
-Install Python Geocoding Toolbox, using pip with:
-
-pip install geopy
-
-Or, download a wheel or source archive from PyPI.
+# How to use:
 
 data - a list of bars in JSON format and returns bar (name).
 
